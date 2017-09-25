@@ -1,4 +1,4 @@
-package kan;
+package kan.javase.practice;
 
 public class HelloWorld {
 	public static void main(String[] args) {

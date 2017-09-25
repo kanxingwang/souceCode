@@ -1,4 +1,4 @@
-package kan;
+package kan.javase.practice;
 
 
 
