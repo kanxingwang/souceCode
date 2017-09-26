@@ -1,6 +1,6 @@
 package kan.javase.demo;
 /**
- * 抽象的动物类
+ *
  * @author Administrator
  *
  */
