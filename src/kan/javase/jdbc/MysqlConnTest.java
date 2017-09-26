@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class MysqlConn {
+public class MysqlConnTest {
 	public String name="com.mysql.jdbc.Driver";
 	public static void main(String[] args) {
 		try {
