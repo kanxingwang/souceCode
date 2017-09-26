@@ -4,14 +4,14 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * ÏµÍ³Ëæ»úÉú³É1-100µÄÕûÊı£¬ÊäÈëÊı×Ö£¬¸ù¾İµÃµ½µÄÌáÊ¾²Â²â½á¹û
+ * çŒœæ•°å­—
  * @author Administrator
  *
  */
 public class GuessNumber {
-	public static final String  RIGHT="¹§Ï²Äã£¬´ğ¶ÔÁË£¡";
-	public static final String  BIG="´óÁË£¡";
-	public static final String  SMALL="Ğ¡ÁË£¡";
+	public static final String  RIGHT="æ­å–œ å¯¹äº†";
+	public static final String  BIG="å¤§äº†";
+	public static final String  SMALL="å°äº†";
 	
 	public static int generateResult(){
 		Random random =new Random();
@@ -32,7 +32,7 @@ public class GuessNumber {
 		String guessString;
 		int answer=generateResult();
 		do {
-			System.out.println("ÇëÊäÈëÒª²Â²âµÄÊı×Ö£º");
+			System.out.println("è¯·è¾“å…¥è¦çŒœæµ‹çš„æ•°å­—");
 			@SuppressWarnings("resource")
 			Scanner scanner=new Scanner(System.in);
 			int guess=scanner.nextInt();

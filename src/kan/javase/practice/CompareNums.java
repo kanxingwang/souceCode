@@ -2,7 +2,7 @@ package kan.javase.practice;
 
 public class CompareNums {
 	/**
-	 * 比较两个数字的大小 
+	 * 姣旇緝鏁板瓧
 	 * @param first
 	 * @param second
 	 * @return max
