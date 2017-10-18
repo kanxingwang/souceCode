@@ -10,12 +10,12 @@ public class Bird extends Animal implements Flyable{
 
 	@Override
 	public void sleep() {
-		System.out.println("Äñ Ë¯ÔÚÊ÷ÉÏ");
+		System.out.println("123123");
 	}
 
 	@Override
 	public void fly() {
-		System.out.println("ÄñÓÃ³á°ò·É");
+		System.out.println("ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ï¿½");
 		
 	}
 

@@ -10,12 +10,12 @@ public class Dog extends Animal {
 
 	@Override
 	public void sleep() {
-		System.out.println("¹·ÔÚ¹·ÎÑÀïË¯");
+		System.out.println("22Ë¯");
 		
 	}
 	
 	public void  biteTail() {
-		System.out.println("ÒªÎ²°Í");
+		System.out.println("2323");
 		
 	}
 
