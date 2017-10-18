@@ -10,7 +10,7 @@ public class Cat extends Animal{
 
 	@Override
 	public void sleep() {
-		System.out.println("Ã¨Ë¯ÔÚ´²ÉÏ");
+		System.out.println("eat cat");
 		
 	}
 
