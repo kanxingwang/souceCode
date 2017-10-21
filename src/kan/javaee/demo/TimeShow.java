@@ -23,6 +23,7 @@ public class TimeShow extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
+		response.setCharacterEncoding("utf-8");
 		PrintWriter out = response.getWriter();
         out.println("现在是北京时间："+new Date().toLocaleString());
         out.flush();
